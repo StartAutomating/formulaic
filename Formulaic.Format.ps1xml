@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>formulaic.flashcard</Name>
+      <ViewSelectedBy>
+        <TypeName>formulaic.flashcard</TypeName>
+      </ViewSelectedBy>
+      <CustomControl>
+        <CustomEntries>
+          <CustomEntry>
+            <CustomItem>
+              <Frame>
+                <CustomItem>
+                  <ExpressionBinding>
+                    <ScriptBlock>
+        $flashcard = $_
+
+        $nextUrl = "$($fullUrl)"
+        if ($nextUrl -like "*Get-Flashcard_GradeLevel=*") {
+            $nextUrl = $nextUrl.Substring(0, $nextUrl.IndexOf("Get-Flashcard_GradeLevel=") - 1)
+            
+        } 
+        if ($nextUrl.contains("?")) {
+            $nextUrl+="&amp;Get-Flashcard_GradeLevel=$($flashcard.Gradelevel)"
+        } else {
+            $nextUrl+="?Get-Flashcard_GradeLevel=$($flashcard.Gradelevel)"
+        }
+
+        "
+        &lt;script&gt;
+            function checkAnswer() {
+                answerField = document.getElementById('flashCardAnswer');
+                if (answerField.value == '$($flashcard.Answer)') { showCorrect(); } else { showIncorrect(); } 
+            }
+
+            function showCorrect() {
+                document.getElementById('isCorrect').style.display = 'inline';
+                document.getElementById('isWrong').style.display = 'none';
+
+                setTimeout('nextQuestion();', 2500);
+            }
+
+            function showIncorrect() {
+                document.getElementById('isCorrect').style.display = 'none';
+                document.getElementById('isWrong').style.display = 'inline';
+            }
+
+            function nextQuestion() {
+                window.location = '$($nextUrl)'
+            }
+        &lt;/script&gt;
+        &lt;h1 style='font-size:5em'&gt;$($flashcard.Question -replace "__", "&lt;input type='text' name='answer' id='flashCardAnswer' style='font-size:1em;max-width:250px'&gt;&lt;/input&gt;" )&lt;/h1&gt;
+        
+
+        &lt;h1 style='font-size:3em;style;text-align:center'&gt;
+            &lt;input type='submit' name='Answer' value='Answer' onclick=`"checkAnswer();`" style='font-size:1em'&gt;&lt;/input&gt;
+
+            &lt;input type='submit' name='Answer' value='Skip' onclick=`"nextQuestion();`" style='font-size:1em'&gt;&lt;/input&gt;
+        &lt;/h1&gt;
+        &lt;h2 style='display:none;text-align:center;color:#015624;font-size:3em' id='isCorrect'&gt;
+            Right!
+        &lt;/h2&gt;
+        &lt;h2 style='display:none;text-align:center;color:#fa0000;font-size:3em' id='isWrong'&gt;
+            Wrong!
+        &lt;/h2&gt;
+        
+        
+        
+        
+        
+        
+        "
+    </ScriptBlock>
+                  </ExpressionBinding>
+                </CustomItem>
+              </Frame>
+            </CustomItem>
+          </CustomEntry>
+        </CustomEntries>
+      </CustomControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>
