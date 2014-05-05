@@ -6,11 +6,11 @@
     .Description
         Gets the standard deviation of a series of numbers
     .Example
-        Get-Average 2,4,6,8
+        Get-StandardDeviation 2,4,6,8
     #>
     param(
-    # The numbers to average
-    [Parameter(Mandatory=$true,ValueFromPipelineByPropertyName=$true)]
+    # The series of numbers 
+    [Parameter(Mandatory=$true,ValueFromPipelineByPropertyName=$true,Position=0)]
     [Double[]]
     $Number
     )
