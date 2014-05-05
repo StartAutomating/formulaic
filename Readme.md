@@ -1,6 +1,7 @@
 
-! [http://get-math.com/Formulaic_125_125.png](Formulaic)
+
 [http://get-math.com](Visit Website)
+
 
     
     
