@@ -1,6 +1,6 @@
 
 
-[http://get-math.com](Visit Website)
+[Official Website](http://get-math.com)
 
 
     
@@ -31,55 +31,55 @@ Formulaic is published with [PowerShell Pipeworks](http://powershellpipeworks.co
 #### Geometry
                 
                 
-* [http://get-math.com/Get-CircleArea/](Get-CircleArea)
-* [http://get-math.com/Get-CircleCircumference/](Get-CircleCircumference)
-* [http://get-math.com/Get-EllipseArea/](Get-EllipseArea)
-* [http://get-math.com/Get-ParallelogramArea/](Get-ParallelogramArea)
-* [http://get-math.com/Get-RectangleArea/](Get-RectangleArea)
-* [http://get-math.com/Get-RectanglePerimeter/](Get-RectanglePerimeter)
-* [http://get-math.com/Get-SquareArea/](Get-SquareArea)
-* [http://get-math.com/Get-SquarePerimeter/](Get-SquarePerimeter)
-* [http://get-math.com/Get-TriangleArea/](Get-TriangleArea)
-* [http://get-math.com/Get-TriangleSide/](Get-TriangleSide)
-* [http://get-math.com/Get-TrianglePerimeter/](Get-TrianglePerimeter)
-* [http://get-math.com/Get-TrapezoidArea/](Get-TrapezoidArea)
-* [http://get-math.com/Get-Angle/](Get-Angle)                
+* [Get-CircleArea](http://get-math.com/Get-CircleArea/)
+* [Get-CircleCircumference](http://get-math.com/Get-CircleCircumference/)
+* [Get-EllipseArea](http://get-math.com/Get-EllipseArea/)
+* [Get-ParallelogramArea](http://get-math.com/Get-ParallelogramArea/)
+* [Get-RectangleArea](http://get-math.com/Get-RectangleArea/)
+* [Get-RectanglePerimeter](http://get-math.com/Get-RectanglePerimeter/)
+* [Get-SquareArea](http://get-math.com/Get-SquareArea/)
+* [Get-SquarePerimeter](http://get-math.com/Get-SquarePerimeter/)
+* [Get-TriangleArea](http://get-math.com/Get-TriangleArea/)
+* [Get-TriangleSide](http://get-math.com/Get-TriangleSide/)
+* [Get-TrianglePerimeter](http://get-math.com/Get-TrianglePerimeter/)
+* [Get-TrapezoidArea](http://get-math.com/Get-TrapezoidArea/)
+* [Get-Angle](http://get-math.com/Get-Angle/)                
                 
 #### Physics
                 
                 
-* [http://get-math.com/Measure-Mass/](Measure-Mass)
-* [http://get-math.com/Measure-Velocity/](Measure-Velocity)                
+* [Measure-Mass](http://get-math.com/Measure-Mass/)
+* [Measure-Velocity](http://get-math.com/Measure-Velocity/)                
                 
 #### Statistics
                 
                 
-* [http://get-math.com/Get-Average/](Get-Average)
-* [http://get-math.com/Get-StandardDeviation/](Get-StandardDeviation)
-* [http://get-math.com/Measure-Correlation/](Measure-Correlation)                
+* [Get-Average](http://get-math.com/Get-Average/)
+* [Get-StandardDeviation](http://get-math.com/Get-StandardDeviation/)
+* [Measure-Correlation](http://get-math.com/Measure-Correlation/)                
                 
 #### Converters
                 
                 
-* [http://get-math.com/ConvertTo-Metric/](ConvertTo-Metric)
-* [http://get-math.com/ConvertTo-Celsius/](ConvertTo-Celsius)
-* [http://get-math.com/ConvertTo-Fahrenheit/](ConvertTo-Fahrenheit)                
+* [ConvertTo-Metric](http://get-math.com/ConvertTo-Metric/)
+* [ConvertTo-Celsius](http://get-math.com/ConvertTo-Celsius/)
+* [ConvertTo-Fahrenheit](http://get-math.com/ConvertTo-Fahrenheit/)                
                 
 #### Calculators
                 
                 
-* [http://get-math.com/Invoke-Arithmetic/](Invoke-Arithmetic)
-* [http://get-math.com/Measure-Tip/](Measure-Tip)
-* [http://get-math.com/Measure-Interest/](Measure-Interest)                
+* [Invoke-Arithmetic](http://get-math.com/Invoke-Arithmetic/)
+* [Measure-Tip](http://get-math.com/Measure-Tip/)
+* [Measure-Interest](http://get-math.com/Measure-Interest/)                
                  
 #### Flashcards
                 
                 
-* [http://get-math.com/Get-Flashcard/](Get-Flashcard)                
+* [Get-Flashcard](http://get-math.com/Get-Flashcard/)                
                 
 #### About Formulaic
                 
                 
-* [http://get-math.com/About Formulaic/](About Formulaic)
-* [http://get-math.com/Math as a Service/](Math as a Service)                
+* [About Formulaic](http://get-math.com/About Formulaic/)
+* [Math as a Service](http://get-math.com/Math as a Service/)                
                 
