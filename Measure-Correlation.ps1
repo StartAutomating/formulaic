@@ -1,6 +1,12 @@
 ﻿function Measure-Correlation
 {
-    
+    <#
+    .Synopsis
+        Measures the correlation coeffecients in a set of data
+    .Description
+        Determines the correlation coeffecients in a set of data
+
+    #>    
     param(
     # The input object
     [Parameter(Mandatory=$true,ValueFromPipeline=$true)]
